@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "EconomyAPI",
+    "name": "EconomyAPI",
+    "description": "Mod provided an API to create an economy",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Anhgelus"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

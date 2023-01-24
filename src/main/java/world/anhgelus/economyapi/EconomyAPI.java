@@ -2,7 +2,8 @@ package world.anhgelus.economyapi;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.config.ConfigManager;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -11,6 +12,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.Logger;
+import world.anhgelus.economyapi.common.economy.Economy;
+import world.anhgelus.economyapi.server.economy.capability.EconomyFactory;
+import world.anhgelus.economyapi.server.economy.capability.EconomyStorage;
+import world.anhgelus.economyapi.server.economy.capability.IEconomy;
+import world.anhgelus.economyapi.server.listener.AttachCapabilitiesListener;
 
 @Mod(
         modid = EconomyAPI.MOD_ID,
@@ -24,6 +30,7 @@ public class EconomyAPI {
     public static final String VERSION = "0.0.1";
     public static final String FOLDER = "EconomyAPI";
     private static Logger logger;
+    private static Economy economy;
 
     /**
      * This is the instance of your mod as created by Forge. It will never be null.
@@ -45,7 +52,9 @@ public class EconomyAPI {
      */
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        economy = new Economy();
+        CapabilityManager.INSTANCE.register(IEconomy.class, new EconomyStorage(), new EconomyFactory());
+        MinecraftForge.EVENT_BUS.register(AttachCapabilitiesListener.class);
     }
 
     /**
@@ -105,13 +114,12 @@ public class EconomyAPI {
             */
         }
     }
-    /* EXAMPLE ITEM AND BLOCK - you probably want these in separate files
-    public static class MySpecialItem extends Item {
 
+    public static Logger getLogger() {
+        return logger;
     }
 
-    public static class MySpecialBlock extends Block {
-
+    public static Economy getEconomy() {
+        return economy;
     }
-    */
 }

@@ -1,4 +1,4 @@
-package world.anhgelus.economyapi.server.economy.capability;
+package world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability;
 
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagLong;

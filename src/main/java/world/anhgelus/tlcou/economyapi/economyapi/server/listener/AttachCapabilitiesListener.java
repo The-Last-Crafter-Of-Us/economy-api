@@ -1,12 +1,12 @@
-package world.anhgelus.economyapi.server.listener;
+package world.anhgelus.tlcou.economyapi.economyapi.server.listener;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.jetbrains.annotations.NotNull;
-import world.anhgelus.economyapi.common.economy.Economy;
-import world.anhgelus.economyapi.server.economy.capability.EconomyProvider;
+import world.anhgelus.tlcou.economyapi.economyapi.common.economy.Economy;
+import world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability.EconomyProvider;
 
 public class AttachCapabilitiesListener {
     @SubscribeEvent

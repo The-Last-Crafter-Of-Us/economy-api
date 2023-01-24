@@ -1,8 +1,8 @@
-package world.anhgelus.economyapi.common.economy;
+package world.anhgelus.tlcou.economyapi.economyapi.common.economy;
 
 import net.minecraft.util.ResourceLocation;
-import world.anhgelus.economyapi.EconomyAPI;
-import world.anhgelus.economyapi.common.config.MainConfig;
+import world.anhgelus.tlcou.economyapi.economyapi.EconomyAPI;
+import world.anhgelus.tlcou.economyapi.economyapi.common.config.MainConfig;
 
 public class Economy {
     public final String name;

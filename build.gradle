@@ -3,7 +3,7 @@ plugins {
 }
 
 
-group = 'world.anhgelus'
+group = 'world.anhgelus.tlcou'
 version = '0.0.1'
 
 java {

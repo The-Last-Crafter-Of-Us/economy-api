@@ -7,8 +7,8 @@ Mod providing an API to create an economy.
 - [x] Base of economy
 - [x] Customizable economy
 - [x] Account for every player
-- [ ] Command to manage the economy
-- [ ] Powerful API
+- [x] Command to manage the economy
+- [x] Powerful API
 
 ## Technologies
 

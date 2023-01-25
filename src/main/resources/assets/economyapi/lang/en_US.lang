@@ -1,0 +1,10 @@
+# ==================================================
+# Command
+# ==================================================
+command.not-player=You must be a player to use this command.
+# Economy
+command.economy.usage=Usage: /economy <get|set>
+command.economy.get.usage=Usage: /economy get <player>
+command.economy.get.success=The player %s now has %f.
+command.economy.set.usage=Usage: /economy set <player> <amount>
+command.economy.set.success=The player %s now has %s.

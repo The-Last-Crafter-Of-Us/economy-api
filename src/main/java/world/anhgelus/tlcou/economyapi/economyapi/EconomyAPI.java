@@ -25,7 +25,7 @@ import world.anhgelus.tlcou.economyapi.economyapi.server.listener.AttachCapabili
 )
 public class EconomyAPI {
 
-    public static final String MOD_ID = "EconomyAPI";
+    public static final String MOD_ID = "economyapi";
     public static final String MOD_NAME = "EconomyAPI";
     public static final String VERSION = "0.0.1";
     public static final String FOLDER = "EconomyAPI";

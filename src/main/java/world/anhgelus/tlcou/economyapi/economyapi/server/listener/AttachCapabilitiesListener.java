@@ -12,6 +12,6 @@ public class AttachCapabilitiesListener {
     @SubscribeEvent
     public static void playerCapabilities(@NotNull AttachCapabilitiesEvent<Entity> event) {
         if (!(event.getObject() instanceof EntityPlayer)) return;
-        event.addCapability(Economy.ECONOMY_CAP, new EconomyProvider());
+        event.addCapability(Economy.ECONOMY_CAP_LOCATION, new EconomyProvider());
     }
 }

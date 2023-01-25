@@ -1,12 +1,12 @@
-package world.anhgelus.tlcou.economyapi.economyapi.common.economy;
+package world.anhgelus.tlcou.economyapi.common.economy;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityInject;
-import world.anhgelus.tlcou.economyapi.economyapi.EconomyAPI;
-import world.anhgelus.tlcou.economyapi.economyapi.common.config.MainConfig;
-import world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability.IEconomy;
+import world.anhgelus.tlcou.economyapi.EconomyAPI;
+import world.anhgelus.tlcou.economyapi.common.config.MainConfig;
+import world.anhgelus.tlcou.economyapi.server.economy.capability.IEconomy;
 
 public class Economy {
     public final String name;

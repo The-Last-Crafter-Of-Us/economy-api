@@ -1,9 +1,9 @@
-package world.anhgelus.tlcou.economyapi.economyapi.common.config;
+package world.anhgelus.tlcou.economyapi.common.config;
 
 import net.minecraftforge.common.config.Config;
-import world.anhgelus.tlcou.economyapi.economyapi.EconomyAPI;
-import world.anhgelus.tlcou.economyapi.economyapi.common.config.main.BankSubConfig;
-import world.anhgelus.tlcou.economyapi.economyapi.common.config.main.CurrencySubConfig;
+import world.anhgelus.tlcou.economyapi.EconomyAPI;
+import world.anhgelus.tlcou.economyapi.common.config.main.BankSubConfig;
+import world.anhgelus.tlcou.economyapi.common.config.main.CurrencySubConfig;
 
 @Config(modid = EconomyAPI.MOD_ID, name = EconomyAPI.FOLDER + "/main")
 public final class MainConfig {

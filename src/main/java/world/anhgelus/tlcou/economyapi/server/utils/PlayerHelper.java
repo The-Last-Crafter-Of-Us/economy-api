@@ -1,4 +1,4 @@
-package world.anhgelus.tlcou.economyapi.economyapi.server.utils;
+package world.anhgelus.tlcou.economyapi.server.utils;
 
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;

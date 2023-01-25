@@ -1,4 +1,4 @@
-package world.anhgelus.tlcou.economyapi.economyapi.common.config.main;
+package world.anhgelus.tlcou.economyapi.common.config.main;
 
 import net.minecraftforge.common.config.Config;
 

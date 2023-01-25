@@ -1,4 +1,4 @@
-package world.anhgelus.tlcou.economyapi.economyapi.common.command;
+package world.anhgelus.tlcou.economyapi.common.command;
 
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;

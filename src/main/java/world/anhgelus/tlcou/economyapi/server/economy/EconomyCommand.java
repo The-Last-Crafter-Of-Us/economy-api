@@ -1,4 +1,4 @@
-package world.anhgelus.tlcou.economyapi.economyapi.server.economy;
+package world.anhgelus.tlcou.economyapi.server.economy;
 
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -6,9 +6,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.text.TextComponentTranslation;
 import org.jetbrains.annotations.NotNull;
-import world.anhgelus.tlcou.economyapi.economyapi.EconomyAPI;
-import world.anhgelus.tlcou.economyapi.economyapi.common.command.Command;
-import world.anhgelus.tlcou.economyapi.economyapi.server.utils.PlayerHelper;
+import world.anhgelus.tlcou.economyapi.EconomyAPI;
+import world.anhgelus.tlcou.economyapi.common.command.Command;
+import world.anhgelus.tlcou.economyapi.server.utils.PlayerHelper;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package world.anhgelus.tlcou.economyapi.economyapi;
+package world.anhgelus.tlcou.economyapi;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -12,11 +12,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.Logger;
-import world.anhgelus.tlcou.economyapi.economyapi.common.economy.Economy;
-import world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability.EconomyFactory;
-import world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability.EconomyStorage;
-import world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability.IEconomy;
-import world.anhgelus.tlcou.economyapi.economyapi.server.listener.AttachCapabilitiesListener;
+import world.anhgelus.tlcou.economyapi.common.economy.Economy;
+import world.anhgelus.tlcou.economyapi.server.economy.capability.EconomyFactory;
+import world.anhgelus.tlcou.economyapi.server.economy.capability.EconomyStorage;
+import world.anhgelus.tlcou.economyapi.server.economy.capability.IEconomy;
+import world.anhgelus.tlcou.economyapi.server.listener.AttachCapabilitiesListener;
 
 @Mod(
         modid = EconomyAPI.MOD_ID,

@@ -1,6 +1,6 @@
-package world.anhgelus.tlcou.economyapi.economyapi.server.economy.capability;
+package world.anhgelus.tlcou.economyapi.server.economy.capability;
 
-import world.anhgelus.tlcou.economyapi.economyapi.EconomyAPI;
+import world.anhgelus.tlcou.economyapi.EconomyAPI;
 
 /**
  * Capability for the Economy

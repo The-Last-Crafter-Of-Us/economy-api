@@ -27,7 +27,7 @@ public class EconomyAPI {
 
     public static final String MOD_ID = "economyapi";
     public static final String MOD_NAME = "EconomyAPI";
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "0.1.0";
     public static final String FOLDER = "EconomyAPI";
     private static Logger logger;
     private static Economy economy;

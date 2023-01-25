@@ -1,6 +1,6 @@
 # Economy API
 
-Mod provided an API to create an economy.
+Mod providing an API to create an economy.
 
 ## Todos
 

@@ -4,11 +4,11 @@ Mod providing an API to create an economy.
 
 ## Todos
 
-- [ ] Create the base of economy
-- [ ] Customize the economy
-- [ ] Create an account for every player
-- [ ] Create a command to manage the economy
-- [ ] Create the API
+- [x] Base of economy
+- [x] Customizable economy
+- [x] Account for every player
+- [ ] Command to manage the economy
+- [ ] Powerful API
 
 ## Technologies
 
